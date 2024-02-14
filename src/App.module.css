@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.gifWrapper {
+    margin-top: 4rem;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+
+.secondGifWrapper {
+    margin-top: 4rem;
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+}
+
+.firstGif {
+    object-fit: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.secondGif {
+    object-fit: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.label {
+    font-family: "Comic Sans MS", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: clamp(0.2rem, 5vw, 2rem);
+}
+
+.choice {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+}
+
+.yes {
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    color: white;
+    width: 6rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.no {
+    user-select: none;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+    width: 6rem;
+    border: 2px solid black;
+}
+
+.secondLabel {
+    font-family: "Comic Sans MS", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: clamp(0.2rem, 5vw, 2rem);
+}
